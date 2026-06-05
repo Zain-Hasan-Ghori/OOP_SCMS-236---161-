@@ -8,7 +8,7 @@ class Course;
 
 class Student : public Person
 {
-private:
+protected:
     std::string rollNo;
     int semester;
     float gpa;
