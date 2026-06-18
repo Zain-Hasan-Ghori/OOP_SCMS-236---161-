@@ -28,8 +28,10 @@ public:
 
     float calculateGPA() const;
 
+    std::string getRollNo() const { return rollNo; }
+    float getGPA() const { return gpa; }
+
     ~Student();
 };
 
 #endif
-

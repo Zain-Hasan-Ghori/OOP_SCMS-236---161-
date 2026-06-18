@@ -16,4 +16,21 @@ public:
 	}
 };
 
+class OverdueException : public std::exception {
+private:
+	std::string message;
+	double fine;
+public:
+	OverdueException(const std::string& msg, double fineAmount)
+		: message(msg), fine(fineAmount) {
+	}
+
+	const char* what() const noexcept override {
+		return message.c_str();
+	}
+
+	double getFine() const {
+		return fine;
+	}
+};
 #endif
