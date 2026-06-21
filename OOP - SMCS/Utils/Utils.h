@@ -1,6 +1,6 @@
 #ifndef UTILS_H
 #define UTILS_H
-#include "../Student.h"
+#include "../person/Student.h"
 #include <string>
 
 class Utils {

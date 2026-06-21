@@ -1,5 +1,5 @@
 #include "Enrollment.h"
-#include "Student.h"
+#include "../person/Student.h"
 #include "Course.h"
 
 #include<iostream>

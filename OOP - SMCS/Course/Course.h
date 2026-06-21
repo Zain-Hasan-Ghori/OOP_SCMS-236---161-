@@ -1,7 +1,7 @@
 #ifndef COURSE_H
 #define COURSE_H
-#include "Student.h"
-#include "Faculty.h"
+#include "../person/Student.h"
+#include "../person/Faculty.h"
 #include <iostream>
 #include <string>
 

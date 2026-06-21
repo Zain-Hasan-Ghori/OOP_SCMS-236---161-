@@ -1,5 +1,5 @@
 #include "Course.h"
-#include "Exception.h"
+#include "../utils/Exception.h"
 using namespace std;
 
 Course::Course() {

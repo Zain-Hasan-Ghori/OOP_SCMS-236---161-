@@ -1,9 +1,12 @@
 #ifndef REPORTS_H
 #define REPORTS_H
 
-#include "..\Student.h"
-#include "..\Faculty.h"
-#include "..\Course.h"
+#include "../person/Student.h"
+#include "../person/Faculty.h"
+#include "../course/Course.h"
+#include "../library/Library.h"
+#include "../finance/FeeRecord.h"
+#include "../finance/Invoice.h"
 
 class Reports {
 public:
